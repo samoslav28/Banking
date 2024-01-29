@@ -72,7 +72,9 @@
       "cislo_uctu": "AT2109876543",
       "suma": 234.56
     },
-    {
+    { 
+      "first_name": "Ladislav",
+      "last_name": "Kabul",
       "cislo_uctu": "HU1098765432",
       "suma": 9876.54
     },

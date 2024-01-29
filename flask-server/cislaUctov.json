@@ -76,7 +76,9 @@
       "cislo_uctu": "HU1098765432",
       "suma": 9876.54
     },
-    {
+    { 
+      "first_name": "Matej",
+      "last_name": "Lambert",
       "cislo_uctu": "PL0987654321",
       "suma": 321.09
     },

@@ -1,0 +1,102 @@
+{
+  "ucta": [
+    {
+      "cislo_uctu": "SK1234567890",
+      "suma": 1023.45
+    },
+    {
+      "cislo_uctu": "CZ0987654321",
+      "suma": 765.89
+    },
+    {
+      "cislo_uctu": "DE9876543210",
+      "suma": 2345.67
+    },
+    {
+      "cislo_uctu": "FR1234876509",
+      "suma": 876.12
+    },
+    {
+      "cislo_uctu": "GB8765432109",
+      "suma": 543.21
+    },
+    {
+      "cislo_uctu": "IT5678901234",
+      "suma": 87.65
+    },
+    {
+      "cislo_uctu": "ES4567890123",
+      "suma": 456.78
+    },
+    {
+      "cislo_uctu": "AT3456789012",
+      "suma": 1234.56
+    },
+    {
+      "cislo_uctu": "HU2345678901",
+      "suma": 789.01
+    },
+    {
+      "cislo_uctu": "PL1098765432",
+      "suma": 654.32
+    },
+    {
+      "cislo_uctu": "SK9876543210",
+      "suma": 210.98
+    },
+    {
+      "cislo_uctu": "CZ8765432109",
+      "suma": 567.89
+    },
+    {
+      "cislo_uctu": "DE7654321098",
+      "suma": 432.1
+    },
+    {
+      "cislo_uctu": "FR6543210987",
+      "suma": 1098.76
+    },
+    {
+      "cislo_uctu": "GB5432109876",
+      "suma": 876.54
+    },
+    {
+      "cislo_uctu": "IT4321098765",
+      "suma": 5432.1
+    },
+    {
+      "cislo_uctu": "ES3210987654",
+      "suma": 765.43
+    },
+    {
+      "cislo_uctu": "AT2109876543",
+      "suma": 234.56
+    },
+    {
+      "cislo_uctu": "HU1098765432",
+      "suma": 9876.54
+    },
+    {
+      "cislo_uctu": "PL0987654321",
+      "suma": 321.09
+    },
+    {
+      "first_name": "Karol",
+      "last_name": "Lodicka",
+      "cislo_uctu": "NC1973022040",
+      "amount": 200
+    },
+    {
+      "first_name": "Samuel",
+      "last_name": "Gabor",
+      "cislo_uctu": "PO8894435087",
+      "suma": 600
+    },
+    {
+      "first_name": "Alexander",
+      "last_name": "Kotlik",
+      "cislo_uctu": "BT3732112090",
+      "suma": 700
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+.input_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.button {
+    color: white;
+    border: none;
+    /* padding: 10px; */
+    cursor: pointer;
+  }
+
+.button-container {
+    display: flex; 
+    flex-direction: column;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+
+  
+  .submit-button {
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: transparent; /* Přizpůsobte podle potřeby */
+    border: 3px solid red;
+    border-radius: 5px;
+  }
+  
+  .reset-button {
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: transparent; /* Přizpůsobte podle potřeby */
+    border: 3px solid red;
+    border-radius: 5px;
+  }
+  
+  .vypis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+

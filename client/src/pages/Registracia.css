@@ -1,0 +1,99 @@
+styles.css
+
+/* Společné styly pro label, input, select, button */
+h4 {
+  text-align: center;
+}
+
+/* Styly pro label */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Styly pro input a select */
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Styly pro formulář */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Styly pro tlačítko */
+button {
+  background-color: transparent;
+  border: solid 1px white;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Změna barvy tlačítka při najetí myši */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Změna barvy tlačítka, když je formulář neplatný */
+button.invalid {
+  background-color: #f44336;
+}
+
+/* .message {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+} */
+
+/* Prídajte triedu pre h3 a h4 v message */
+
+
+/* Styly pro input s fontem Open Sans */
+input {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* div#message {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+/* Štýly pre flexboxový kontajner celého formulára */
+/* .form-container {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* Štýly pre flexboxový kontajner prvého mena a priezviska */
+.input-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Štýly pre oddelenie prvého mena a priezviska */
+.input-row > div {
+  width: 48%;
+}
+
+#message-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+

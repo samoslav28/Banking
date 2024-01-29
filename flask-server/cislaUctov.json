@@ -22,7 +22,7 @@
     },
     {
       "cislo_uctu": "IT5678901234",
-      "suma": 87.65
+      "suma": 1931.65
     },
     {
       "cislo_uctu": "ES4567890123",
@@ -72,13 +72,13 @@
       "cislo_uctu": "AT2109876543",
       "suma": 234.56
     },
-    { 
+    {
       "first_name": "Ladislav",
       "last_name": "Kabul",
       "cislo_uctu": "HU1098765432",
       "suma": 9876.54
     },
-    { 
+    {
       "first_name": "Matej",
       "last_name": "Lambert",
       "cislo_uctu": "PL0987654321",
@@ -98,9 +98,15 @@
     },
     {
       "first_name": "Alexander",
+<<<<<<< HEAD
       "last_name": "Kotlik",
       "cislo_uctu": "BT3732112090",
       "suma": 700
+=======
+      "last_name": "Kolaj",
+      "cislo_uctu": "YZ1321976784",
+      "suma": 50
+>>>>>>> d8df9f2 (Pridane dalsie cisla uctov)
     }
   ]
 }

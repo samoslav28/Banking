@@ -34,7 +34,7 @@ const Registracia = () => {
             <div>
               <label>
                 <h4 id='title'>Prvé meno:</h4>
-                <input
+                <input id='input-first'
                   type="text"
                   value={firstName}
                   onChange={(e) => setFirstName(e.target.value)}
@@ -44,7 +44,7 @@ const Registracia = () => {
             <div>
               <label>
                 <h4 id='title'>Priezvisko:</h4>
-                <input
+                <input id='input-last'
                   type="text"
                   value={lastName}
                   onChange={(e) => setLastName(e.target.value)}
@@ -55,7 +55,7 @@ const Registracia = () => {
           <div>
             <label>
               <h4 id='title'>Suma:</h4>
-              <input
+              <input id='input-number'
                 type="number"
                 value={amount}
                 onChange={(e) => setAmount(e.target.value)}

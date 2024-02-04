@@ -184,6 +184,8 @@ def entry_amount():
     if scr.returncode != 0:
         raise Exception(f"Chyba pri spustení daco.py: {scr.stderr}")
     result_from_script = json.loads(scr.stdout.strip())
+
+    
     
     with open('resultJSON.json', 'w') as json_file:
         json.dump(result_from_script["bca"], json_file) 

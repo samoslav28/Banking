@@ -12,7 +12,6 @@ const Testing = () => {
 
 // console.log(updateData);
 
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     let endpoint = '';
@@ -64,7 +63,8 @@ const Testing = () => {
         }),
       });
       const data = await response.json();
-      setUpdateDataEntry('')
+      console.log(data);
+      // setUpdateDataEntry('')
 
     } else if (currentStep === 3) {
       // Odeslání výběru na server
@@ -109,7 +109,7 @@ const Testing = () => {
         {currentStep === 1 && (
           <label>
             <h4 id='title'>Zadajte číslo účtu:</h4>
-            <input id='number-of-account'
+            <input
               type="text"
               value={updateDataAccount}
               onChange={(f) => setUpdateDataAccount(f.target.value)}
@@ -134,7 +134,7 @@ const Testing = () => {
         {currentStep === 3 && (
           <label>
             <h4 id='title'>{updateDataEntry === 'vklad' ? 'Akú sumu chcete vložiť?' : 'Akú sumu chcete vybrať?'}</h4>
-            <input id='amount'
+            <input
               type="number"
               value={updateDataAmount}
               onChange={(e) => setUpdateDataAmount(e.target.value)}

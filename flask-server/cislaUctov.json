@@ -95,6 +95,18 @@
       "last_name": "Gabor",
       "cislo_uctu": "PO8894435087",
       "suma": 600
+    },
+    {
+      "first_name": "David",
+      "last_name": "Holencik",
+      "cislo_uctu": "DB8101277501",
+      "suma": 619
+    },
+    {
+      "first_name": "Alexander",
+      "last_name": "Kelvin",
+      "cislo_uctu": "KG1743038628",
+      "suma": 440
     }
   ]
 }

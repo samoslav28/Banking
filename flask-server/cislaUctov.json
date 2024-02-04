@@ -95,18 +95,6 @@
       "last_name": "Gabor",
       "cislo_uctu": "PO8894435087",
       "suma": 600
-    },
-    {
-      "first_name": "Alexander",
-<<<<<<< HEAD
-      "last_name": "Kotlik",
-      "cislo_uctu": "BT3732112090",
-      "suma": 700
-=======
-      "last_name": "Kolaj",
-      "cislo_uctu": "YZ1321976784",
-      "suma": 50
->>>>>>> d8df9f2 (Pridane dalsie cisla uctov)
     }
   ]
 }

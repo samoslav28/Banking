@@ -109,7 +109,7 @@ const Testing = () => {
         {currentStep === 1 && (
           <label>
             <h4 id='title'>Zadajte číslo účtu:</h4>
-            <input
+            <input id='number-of-account'
               type="text"
               value={updateDataAccount}
               onChange={(f) => setUpdateDataAccount(f.target.value)}
@@ -134,7 +134,7 @@ const Testing = () => {
         {currentStep === 3 && (
           <label>
             <h4 id='title'>{updateDataEntry === 'vklad' ? 'Akú sumu chcete vložiť?' : 'Akú sumu chcete vybrať?'}</h4>
-            <input
+            <input id='amount'
               type="number"
               value={updateDataAmount}
               onChange={(e) => setUpdateDataAmount(e.target.value)}
